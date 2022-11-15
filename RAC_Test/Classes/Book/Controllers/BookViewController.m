@@ -11,6 +11,7 @@
 #import "BookViewModel.h"
 #import "JYBookTopView.h"
 #import "JYBookBottomView.h"
+#import "JYBookDomainCell.h"
 #import "JYBookDetailController.h"
 #import "UIViewController+HTHideBottomLine.h"
 
@@ -109,7 +110,11 @@
   [self.tableView.mj_header beginRefreshing];
   
   //绑定数据
-  self.bookHelper = [JYTableViewBindingHelper bindingHelperForTableView:self.tableView sourceSignale:RACObserve(self.viewModel, sources) selectionCommand:nil templateCell:@"JYBookDomainCell" withViewModel:self.viewModel];
+  self.bookHelper = [JYTableViewBindingHelper bindingHelperForTableView:self.tableView
+                                                               codeCell:[JYBookDomainCell class]
+                                                                 source:RACObserve(self.viewModel, sources)
+                                                          withViewModel:self.viewModel
+                                                       selectionCommand:nil];
   
   self.bookHelper.delegate = self;
   //根据信号刷新列表
