@@ -1,0 +1,23 @@
+{
+  "name": "CommonElement",
+  "version": "0.1.0",
+  "summary": "A short description of CommonElement.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/3546397306@qq.com/CommonElement",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "3546397306@qq.com": "sundaysflutter"
+  },
+  "source": {
+    "git": "https://github.com/3546397306@qq.com/CommonElement.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CommonElement/Classes/**/*",
+  "public_header_files": "CommonElement/Classes/**/*.h"
+}

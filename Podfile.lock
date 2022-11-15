@@ -1,0 +1,89 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - CommonElement (0.1.0)
+  - IQKeyboardManager (6.5.6)
+  - Masonry (1.1.0)
+  - MJExtension (3.3.0)
+  - MJRefresh (3.7.2)
+  - MLeaksFinder (1.0.0)
+  - MMProgressHUD (0.3.2)
+  - ReactiveObjC (3.1.1)
+  - SDCycleScrollView (1.82):
+    - SDWebImage (>= 5.0.0)
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
+  - UICollectionViewLeftAlignedLayout (1.0.2)
+
+DEPENDENCIES:
+  - AFNetworking
+  - CommonElement (from `https://github.com/sundaysflutter/CommonElement`)
+  - IQKeyboardManager
+  - Masonry
+  - MJExtension
+  - MJRefresh
+  - MLeaksFinder (from `https://github.com/Tencent/MLeaksFinder.git`)
+  - MMProgressHUD
+  - ReactiveObjC
+  - SDCycleScrollView
+  - SDWebImage
+  - UICollectionViewLeftAlignedLayout
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - IQKeyboardManager
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - MMProgressHUD
+    - ReactiveObjC
+    - SDCycleScrollView
+    - SDWebImage
+    - UICollectionViewLeftAlignedLayout
+
+EXTERNAL SOURCES:
+  CommonElement:
+    :git: https://github.com/sundaysflutter/CommonElement
+  MLeaksFinder:
+    :git: https://github.com/Tencent/MLeaksFinder.git
+
+CHECKOUT OPTIONS:
+  CommonElement:
+    :commit: 277eb1794f652f90e31be310cdffbd7957dd50f3
+    :git: https://github.com/sundaysflutter/CommonElement
+  MLeaksFinder:
+    :commit: dda7088f1bbe9d1d07e730d37a16413dffa4747a
+    :git: https://github.com/Tencent/MLeaksFinder.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  CommonElement: 4037cd9eaebc7b6d61e5099d06caab6ae8144f51
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 01704cca2b60a214c10761b6491eab74069d68a9
+  MJRefresh: 30997d30b347c8e9508a4db11e3a690da0c9b85a
+  MLeaksFinder: 89eb3142bf1bbd0a3d1849543b629399c5da74c5
+  MMProgressHUD: a913b116ba6791d67d37f9fb4211079200fb7595
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SDCycleScrollView: a0d74c3384caa72bdfc81470bdbc8c14b3e1fbcf
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
+  UICollectionViewLeftAlignedLayout: 830bf6fa5bab9f9b464f62e3384f9d2e00b3c0f6
+
+PODFILE CHECKSUM: 46dbd093f42c7dc1f6c35a93630fc12de1ee6b9a
+
+COCOAPODS: 1.11.3

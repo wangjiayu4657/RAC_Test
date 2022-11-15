@@ -1,0 +1,1 @@
+../../../CommonElement/CommonElement/Classes/Category/UIKit/UIImage/UIImage+BinAdd.h

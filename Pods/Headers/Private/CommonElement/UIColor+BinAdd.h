@@ -1,0 +1,1 @@
+../../../CommonElement/CommonElement/Classes/Category/UIKit/UIColor/UIColor+BinAdd.h

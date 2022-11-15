@@ -1,0 +1,1 @@
+../../../CommonElement/CommonElement/Classes/Category/Foundation/NSObject/NSObject+BinAdd.h

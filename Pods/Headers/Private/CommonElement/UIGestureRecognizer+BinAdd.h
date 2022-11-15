@@ -1,0 +1,1 @@
+../../../CommonElement/CommonElement/Classes/Category/UIKit/UIGestureRecognizer/UIGestureRecognizer+BinAdd.h
